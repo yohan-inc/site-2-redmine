@@ -14,31 +14,24 @@ body {
 #header {
 	background-color: #090a0c;
 	padding: 15px;
-	text-align: right;
+	text-align: center;
 	margin: 10px;
 	border-radius: 25px;
+	margin-bottom: 20px;
 }
 
 #header-links {
 	list-style-type: none;
-	
 }
 
 #header-links li {
 	display: inline;
-	color: #ff7a00;
 	margin: 5px;
 }
 
-#logo-header {
-	position: absolute;
-	right: 45%;
-	top: 25px;
-}
-
 .default-block {
-	background-color: #1c2025;
-	border-radius: 20px;
+	background-color: #1b2025;
+	border-radius: 25px;
 	padding: 20px;
 	margin: 10px;
 	margin-top: 0;
@@ -46,11 +39,20 @@ body {
 
 .main-links {
 	text-decoration: none;
-	color: #ff7a00;
+	color: #ff7b00;
 }
 
-.blur {
-	backdrop-filter: blur(10px);
+.main-links:hover {
+	text-decoration: underline;
+}
+
+#footer {
+	background-color: #090a0c;
+	padding: 15px;
+	text-align: center;
+	margin: 10px;
+	border-radius: 25px;
+	margin-top: 20px;
 }
 
 /*
@@ -69,5 +71,49 @@ body {
 }
 
 .welcome-text {
-	color: black;
+	color: #dfdfdf;
+	text-shadow: #090a0c 0 0 20px;
+}
+
+#about span {
+	font-size: 20px;
+}
+
+#about h1 {
+	margin-bottom: 15px;
+}
+
+#members-list {
+	background-color: #15191d;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.members-img {
+	width: 200px;
+	border-radius: 20px;
+}
+
+#sky_block {
+	display: inline-block;
+	margin: 10px;
+}
+
+#yohan_block {
+	display: inline-block;
+	margin: 10px;
+}
+
+#ponedy_block {
+	display: inline-block;
+	margin: 10px;
+}
+
+.contact-block {
+	background-color: #15191d;
+	border-radius: 25px;
+	padding: 20px;
+	margin: 10px;
+	margin-top: 0;
+	text-align: center;
 }
