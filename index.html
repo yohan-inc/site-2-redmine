@@ -3,24 +3,74 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Главная страница</title>
+	<title>Redwood Studio</title>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="shortcut icon" href="https://i.imgur.com/fuPgLjE.png" type="image/png">
 </head>
 <body>
-	<div id="header"> <!-- ШАПКА --> 
-		<a href="index.html"><img src="https://i.imgur.com/ybfI2Ky.png" id="logo-header"></a>
+	<div id="header"> <!-- ШАПКА -->
 		<ul id="header-links">
-			<li>О нас</li>
-			<li>Контакты</li>
+			<li><b><a class="main-links" href="index.html">Главная</b></a></li>
+			<li style="color: #252525;" title="Пока недоступно"><b>Режимы</b></li>
+			<li style="color: #252525;" title="Пока недоступно"><b>Сборки</b></li>
 		</ul>
 	</div>
-<main>
-	<div id="welcome" class="default-block">
-		<span>
+
+	<div id="main">
+		<div id="welcome" class="default-block"> <!-- Welcome Блок --> 
 			<h1 class="welcome-text" style="width: auto 0;"><big>Привет!</big></h1><br>
-			<h2 class="welcome-text" style="width: auto 0;">Добро пожаловать на официальный сайт студии Redwood Studio!</h2>
-		</span>
-	</div>	
-</main>
+			<h2 class="welcome-text" style="width: auto 0;">Добро пожаловать на официальный сайт команды Redwood Studio!</h2>
+	    </div>
+
+		<div id="about" class="default-block"> <!-- О нас --> 
+			<h1 style="text-align: center;">О нас</h1>
+			<span>Мы, команда разрабатывающая режимы! Мы RedWood, да название банальное и сразу понятно откуда мы черпаем вдохновение (от Nazzy). Но всё может измениться, ведь мы только начали и очень ждём поддержки от Вас!</span>
+		</div>
+
+		<div class="default-block" id="members-redwood"> <!-- Команда на данный момент --> 
+			<h1 style="text-align: center; margin-bottom: 20px;">Участники в команде на данный момент</h1>
+			<div id="members-list" class="default-block">
+
+				<div id="sky_block">
+					<img class="members-img" src="https://i.imgur.com/bLZnrei.png" alt="sky_img">
+					<h2 style="margin-top: 10px;">SKY (Скай)</h2>
+				</div>
+
+				<div id="yohan_block">
+					<img class="members-img" src="https://cdn.discordapp.com/avatars/1013887632922656819/a_c2dc3cf268fe17a0cba768c83cd41d94.gif?size=128" alt="sky_img">
+					<h2 style="margin-top: 10px;">YOHAN (Йохан)</h2>
+				</div>
+
+				<div id="ponedy_block">
+					<img class="members-img" src="https://cdn.discordapp.com/avatars/662305420789940244/ffa11d047e843abe9c8ccc2ca5a3a1a9.webp?size=128" alt="sky_img">
+					<h2 style="margin-top: 10px;">PoNeDy (Понеди)</h2>
+
+				</div>
+
+			</div>
+		</div>
+
+		<div id="contacts-block" class="default-block"> <!-- Контакты -->
+
+			<h1 style="text-align: center; margin-bottom: 20px;">Наши контакты</h1>
+
+			<div class="contact-block">
+				<h2>Наш дискорд сервер - <a class="main-links" href="https://discord.gg/BANCVnHYsY" target="_blank">Ссылка...</a></h2>
+			</div>
+
+			<div class="contact-block">
+				<h2>Наш ютуб канал - <a class="main-links" href="https://www.youtube.com/@RedwoodMinecraft" target="_blank">Ссылка...</a></h2>
+			</div>
+
+			<div class="contact-block">
+				<h2>Наша почта для сотрудничества - <a target="_blank" href="mailto:redwoodstudio.cooperation@gmail.com" style="color: #ff7b00;">Написать...</a></h2>
+			</div>
+
+		</div>
+	</div>
+
+	<div id="footer">
+		<h3>Redwood Studio. Copyright. 2023</h3>
+	</div>
 </body>
 </html>
